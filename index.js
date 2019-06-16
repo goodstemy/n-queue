@@ -1,3 +1,3 @@
-const {NodeQueue} = require('./queue.js');
+const {NQueue} = require('./queue.js');
 
-module.exports = NodeQueue;
+module.exports = NQueue;

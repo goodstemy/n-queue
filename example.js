@@ -1,9 +1,9 @@
-const NodeQueue = require('./index.js');
+const NQueue = require('./index.js');
 
 const config = {
 	maxListeners: 10,
 };
-const queue = new NodeQueue(config);
+const queue = new NQueue(config);
 
 queue.onMessage((msg) => {
 	console.log(msg);

@@ -17,5 +17,5 @@ class Queue {
 }
 
 module.exports = {
-	NodeQueue: Queue
+	NQueue: Queue
 };

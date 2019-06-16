@@ -1,10 +1,10 @@
 const assert = require('assert');
-const NodeQueue = require('../index');
+const NQueue = require('../index');
 
 describe('Basic node queue work', () => {
   describe('create queue', () => {
     it('should be ok', () => {
-			const queue = new NodeQueue();
+			const queue = new NQueue();
 
 			queue.onMessage(msg => {
 				assert(msg === 'ok');
@@ -16,7 +16,7 @@ describe('Basic node queue work', () => {
 
   describe('message order', () => {
   	it('should be valid', () => {
-  		const queue = new NodeQueue();
+  		const queue = new NQueue();
   		let i = 1;
 
 			queue.onMessage(msg => {
