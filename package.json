@@ -1,12 +1,14 @@
 {
   "name": "node-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Primitive queue base on node.js event emitter",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": ["queue"],
+  "keywords": [
+    "queue"
+  ],
   "author": "Ivan Efremov",
   "license": "ISC",
   "devDependencies": {
